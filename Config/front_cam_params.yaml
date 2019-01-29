@@ -1,0 +1,68 @@
+%YAML:1.0
+Camera.Iw: 1280
+Camera.Ih: 720
+
+Camera.nrpol: 5
+Camera.nrinvpol: 10
+
+Camera.a0: -3.120719e+02
+Camera.a1: 0.000000e+00
+Camera.a2: 1.007745e-03
+Camera.a3: -9.430929e-07
+Camera.a4: 1.348974e-09
+
+Camera.pol0: 583.462246
+Camera.pol1: 454.202253
+Camera.pol2: 13.957207
+Camera.pol3: -19.762352
+Camera.pol4: 80.087582
+Camera.pol5: 42.643599
+Camera.pol6: -90.924921
+Camera.pol7: -114.523166
+Camera.pol8: -50.405891
+Camera.pol9: -8.090297
+
+Camera.c: 0.999896
+Camera.d: 0.000052
+Camera.e: 0.000010
+
+Camera.u0: 653.580142
+Camera.v0: 359.303805
+
+Camera.fov: 190
+
+CubeFace.h: 650
+CubeFace.w: 650
+
+Camera.fps: 30.0
+Camera.RGB: 1
+
+ORBextractor.nFeatures: 3000
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+#if there is a mask
+Camera.withFisheyeMask: 1
+
+# ORB Extractor: Fast threshold
+# Image is divided in a grid. At each cell FAST are extracted imposing a minimum response.
+# Firstly we impose iniThFAST. If no corners are detected we impose a lower value minThFAST
+# You can lower these values if your images have low contrast			
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+Viewer.KeyFrameSize: 0.1
+Viewer.KeyFrameLineWidth: 1
+Viewer.GraphLineWidth: 1
+Viewer.PointSize:2
+Viewer.CameraSize: 0.15
+Viewer.CameraLineWidth: 2
+Viewer.ViewpointX: 0
+Viewer.ViewpointY: -10
+Viewer.ViewpointZ: -0.1
+Viewer.ViewpointF: 2000
+
+FrameDrawer.MarginX: 260
+FrameDrawer.MarginY: 480

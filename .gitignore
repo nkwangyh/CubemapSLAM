@@ -1,0 +1,11 @@
+build/
+*~
+*.swp
+tags
+ThirdParty/g2o/lib
+ThirdParty/g2o/build
+ThirdParty/DBoW2/lib
+ThirdParty/DBoW2/build
+Vocabulary/ORBvoc.txt
+bin/
+lib/*.so
