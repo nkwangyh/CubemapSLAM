@@ -14,9 +14,8 @@ If you use CubemapSLAM in your work, please consider citing:
     @article{wang2018cubemapslam,
       title={CubemapSLAM: A Piecewise-Pinhole Monocular Fisheye SLAM System},
       author={Wang, Yahui and Cai, Shaojun and Li, Shi-Jie and Liu, Yun and Guo, Yangyan and Li, Tao and Cheng, Ming-Ming},
-      booktitle={Asian Conference on Computer Vision},
-      year={2018},
-      organization={Springer}
+      journal={arXiv preprint arXiv:1811.12633},
+      year={2018}
     }
 
     @article{murTRO2015,
