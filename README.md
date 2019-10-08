@@ -11,11 +11,13 @@ CubemapSLAM is released under a [GPLv3 license](https://github.com/nkwangyh/Cube
 
 If you use CubemapSLAM in your work, please consider citing:
 
-    @article{wang2018cubemapslam,
+    @inproceedings{wang2018cubemapslam,
       title={CubemapSLAM: A Piecewise-Pinhole Monocular Fisheye SLAM System},
       author={Wang, Yahui and Cai, Shaojun and Li, Shi-Jie and Liu, Yun and Guo, Yangyan and Li, Tao and Cheng, Ming-Ming},
-      journal={arXiv preprint arXiv:1811.12633},
-      year={2018}
+      booktitle={Asian Conference on Computer Vision},
+      pages={34--49},
+      year={2018},
+      organization={Springer}
     }
 
     @article{murTRO2015,
